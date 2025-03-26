@@ -6,8 +6,8 @@ export const UserContext = createContext();
 // Create Provider component
 export const UserProvider = ({ children }) => {
   const [userProfile] = useState({
-    name: 'John Doe',
-    age: 30
+    name: 'Ibrahim Muhammad Bello',
+    age: 25
   });
 
   return (
